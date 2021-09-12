@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to top, #023e8a, #3f37c9);
+    background-image: linear-gradient(to bottom, #023e8a, #3f37c9);
     font-family: 'Joystix', monospace;
     border: 2px solid black;
 
@@ -33,11 +33,11 @@ i{
 
 /**************************************************CONTEUDO PRINCIPAL**********************************/
 .main-content{
-    /* margin-top: 1vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 600px;
 }
 
 .gameclass{
@@ -45,7 +45,7 @@ i{
     padding: 5vh 1vw;
     position: relative;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     border: 5px lightslategrey;
     box-shadow: 3px 3px #000;
