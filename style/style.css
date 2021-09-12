@@ -1,17 +1,21 @@
 body{
-    background-color: #343a40;
+    background-image: linear-gradient(to top, #023e8a, #3f37c9);
+    font-family: 'Joystix', monospace;
+    border: 2px solid black;
+
 }
 /**************************************************HEADER PAGINA***************************************/
 .top{
-    background-color:#343a40;
-    /* #200464 */
-    font-family: 'Joystix', monospace;
-    font-size:30px;
+    font-size:23px;
     height: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    border: 2px solid black;
+    background-color: #fb8b24;
 }
+
 
 
 
@@ -23,10 +27,7 @@ i{
 
         #dbb39d
     */
- -moz-transform: scaleX(-1);
--o-transform: scaleX(-1);
--webkit-transform: scaleX(-1);
-transform: scaleX(-1);
+ 
 }
 /**************************************************HEADER PAGINA***************************************/
 
@@ -37,7 +38,6 @@ transform: scaleX(-1);
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .gameclass{
@@ -59,9 +59,7 @@ transform: scaleX(-1);
     margin-top: 20px;
 }
 
-.gameclass__item{
-    cursor: pointer;
-}
+
 
 h2{
     text-align: center;
@@ -74,23 +72,29 @@ h2{
 
 #resultMsg{
     color: #fff;
-    background-color: rgb(135, 199, 17);
+    background-color: #fb8b24;
+    
+}
+
+.fas{
+    font-size: 70px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.fa-player:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 /* SECTION JOGADOR*/
 .gameclass__user{
 background-color: #06d6a0;
-
 }
 
-.img-user{
-    max-width: 100px;
-    opacity: 0.5;
-}
 
-.img-user:hover{
-    opacity: 1;
-}
+
+
 
 .point-user{
     display: block;
@@ -148,21 +152,18 @@ background-color: #06d6a0;
 
 /* SECTION COMPUTADOR*/
 .gameclass__pc{
- background-color: #ff758f;
+ background-color: #f56680;
 
 }
 
-.img__paper{
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
+
 
 .img-pc{
     max-width: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
+
+
 
 .point-pc{
     display: block;
@@ -174,11 +175,57 @@ background-color: #06d6a0;
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+.fa-player{
+    -moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
 /* SECTION COMPUTADOR*/
 
 
 
 /**************************************************CONTEUDO PRINCIPAL**********************************/
-
+.bottom{
+    background-image: linear-gradient(to top, #023e8a, #3f37c9,);
+    height: 81px;
+}
 
 /************************************************** FOOTER ********************************************/
+
+
+@media screen and (min-width:900px){
+
+    body{
+        height: 100%;
+        background-image: linear-gradient(to top, #023e8a, #3f37c9);
+    }
+
+    .top{
+        font-size: 30px;
+    }
+
+    .main-content{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .gameclass{
+        margin-top: 80px;
+        width: 200px;
+        height: 300px;
+    }
+
+    .listGame{
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom{
+        background-image: linear-gradient(to top, #023e8a, #3f37c9,);
+        height: 81px;
+    }
+}
