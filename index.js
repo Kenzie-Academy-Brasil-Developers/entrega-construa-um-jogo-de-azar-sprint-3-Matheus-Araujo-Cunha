@@ -22,6 +22,8 @@ function roll(change){
     pcChange = Math.floor(Math.random() * (4 - 1) + 1);
     
     msg.style.padding = '20px'
+    msg.style.border = '2px solid lightslategrey';
+    msg.style.boxShadow = '3px 5px black'
 
     if(playerChange === pcChange){
         
