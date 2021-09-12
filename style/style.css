@@ -1,0 +1,169 @@
+body{
+    background-color: #343a40;
+}
+/**************************************************HEADER PAGINA***************************************/
+.top{
+    background-color:#200464;
+    font-family: 'Joystix', monospace;
+    font-size: 30px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+i{
+ color: #b38b6d;
+    /* #b38b6d
+    
+        #cd853f
+
+        #dbb39d
+    */
+ -moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+/**************************************************HEADER PAGINA***************************************/
+
+/**************************************************CONTEUDO PRINCIPAL**********************************/
+.main-content{
+    /* margin-top: 1vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.gameclass{
+    width: 80vw;
+    padding: 5vh 1vw;
+    position: relative;
+    height: 20vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listGame{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gameclass__item{
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold ;
+    
+}
+
+
+
+/* SECTION JOGADOR*/
+.gameclass__user{
+background-color: #06d6a0;
+
+}
+
+.img-user{
+    max-width: 100px;
+}
+
+.point-user{
+    display: block;
+    position: absolute;
+    right: 6%;
+    top: 7.5%;
+    transform: translate(-6%, -7.5%);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#player{
+    text-align: left;
+    position: absolute;
+    left: 6%;
+    top: 7.5%;
+    transform: translate(-6%, -7.5%);
+}
+
+#bot{
+    position: absolute;
+    left: 6%;
+    top: 7.5%;
+    transform: translate(-6%, -7.5%);
+}
+
+.gameclass__rock{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.gameclass__scissors{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+/* SECTION JOGADOR*/
+
+.contra{
+    border: 2px solid brown;
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: yellow;
+    color: red;
+}
+
+
+/* SECTION COMPUTADOR*/
+.gameclass__pc{
+ background-color: #ff758f;
+
+}
+
+.img__paper{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.img-pc{
+    max-width: 100px;
+}
+
+.point-pc{
+    display: block;
+    position: absolute;
+    right: 6%;
+    top: 7.5%;
+    transform: translate(-6%, -7.5%);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* SECTION COMPUTADOR*/
+
+
+
+/**************************************************CONTEUDO PRINCIPAL**********************************/
+
+
+/************************************************** FOOTER ********************************************/

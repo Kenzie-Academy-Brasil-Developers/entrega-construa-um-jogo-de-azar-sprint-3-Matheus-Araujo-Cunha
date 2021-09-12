@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="joystix monospace.ttf";>
+    <link rel="shortcut icon" href="style/img/favicon.ico">
+    <script src="https://kit.fontawesome.com/d1df1d3c19.js" crossorigin="anonymous"></script>
+    <title>Pedra, Papel e Tesoura</title>
+</head>
+<body>
+    <header class="top">
+       
+        <h1>
+            <i class="fas fa-hand-rock"></i> 
+            <i class="fas fa-hand-paper"></i>
+            <i class="fas fa-hand-scissors"></i>
+        </h1>
+
+    </header>
+
+<main class="main-content">
+    
+    <section id="game-user" class="gameclass gameclass__user" >
+       <div class="init">
+        <h2 id="player">Jogador</h2>
+      
+        <span id="pointUser" class="point-user">0</span>
+        </div>  
+            <ul id="screenUser" class="listGame">
+                <li id="gameRock-user"   class="gameclass__item gameclass__figure--rock" onclick="roll(1)">
+                    <img id="rock-user" src="style/img/pedra.png" alt="pedra" class="img-user gameclass__rock" >
+                </li>
+            
+             
+                <li id="gamePaper-user" class="gameclass__item gameclass__figure--paper" onclick= "roll(2)"> 
+                    <img id="paper-user" src="style/img/papel.png" alt="papel" class="img-user gameclass__paper" >
+                </li>
+          
+
+                <li id="gameScissors-user" class="gameclass__item gameclass__figure--scissors" onclick="roll(3)" >
+                    <img id="scissors-user" src="style/img/tesoura.png" alt="tesoura" class="img-user gameclass__scissors">
+                </li>
+            </ul>
+    </section>
+
+    <!-- <div>
+    <section class="contra">
+        <span id="vs">Contra</span>
+    </section>
+
+    <section>
+        <button>Jogar</button>
+        <button>Resetar</button>
+    </section>
+    </div> -->
+    <section class="text" id="resultMsg">
+    </section>
+
+
+    <section  id="game-pc" class="gameclass gameclass__pc" >
+        <div class="end">
+        <h2 id="bot">Computador</h2>
+        
+        <span id="pointPc" class="point-pc">0</span>
+        </div>  
+             <ul id="screenPc"   class="listGame" >
+                
+                <li id="gameRock-pc" class="gameclass__item gameclass__item--rock">
+                    <img id="rock-pc" src="style/img/pedra.png" alt="pedra" class="img-pc img__rock" >
+                </li>
+            
+
+                <li id="gamePaper-pc" class="gameclass__item gameclass__item--paper" >
+                    <img id="paper-pc" src="style/img/papel.png" alt="papel" class="img-pc img__paper" >
+                </li>
+            
+
+                <li id="gameScissors-pc" class="gameclass__item gameclass__item--scissors"> 
+                    <img id="scissors-pc" src="style/img/tesoura.png" alt="tesoura" class="img-pc img__scissors" >
+                </li>
+            </ul>
+   
+    </section>
+</main>
+
+    <footer class="bottom"></footer>
+    <script src="index.js"></script>
+</body>
+</html>
