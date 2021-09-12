@@ -3,15 +3,17 @@ body{
 }
 /**************************************************HEADER PAGINA***************************************/
 .top{
-    background-color:#200464;
+    background-color:#343a40;
+    /* #200464 */
     font-family: 'Joystix', monospace;
-    font-size: 30px;
-    height: 20vh;
+    font-size:30px;
+    height: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
+
 
 i{
  color: #b38b6d;
@@ -42,9 +44,12 @@ transform: scaleX(-1);
     width: 80vw;
     padding: 5vh 1vw;
     position: relative;
-    height: 20vh;
+    height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 5px lightslategrey;
+    box-shadow: 3px 3px #000;
+    border-style:solid; 
 }
 
 .listGame{
@@ -64,10 +69,13 @@ h2{
     color: #fff;
     font-size: 20px;
     font-weight: bold ;
-    
+
 }
 
-
+#resultMsg{
+    color: #fff;
+    background-color: rgb(135, 199, 17);
+}
 
 /* SECTION JOGADOR*/
 .gameclass__user{
@@ -77,6 +85,11 @@ background-color: #06d6a0;
 
 .img-user{
     max-width: 100px;
+    opacity: 0.5;
+}
+
+.img-user:hover{
+    opacity: 1;
 }
 
 .point-user{
@@ -120,6 +133,7 @@ background-color: #06d6a0;
 }
 
 
+
 /* SECTION JOGADOR*/
 
 .contra{
@@ -147,6 +161,7 @@ background-color: #06d6a0;
 
 .img-pc{
     max-width: 100px;
+    opacity: 0.5;
 }
 
 .point-pc{
