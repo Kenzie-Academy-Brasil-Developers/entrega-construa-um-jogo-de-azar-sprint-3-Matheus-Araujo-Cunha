@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(to bottom, #023e8a, #3f37c9);
-    font-family: 'Joystix', sans-serif;            
+    font-family: 'Joystix', monospace;            
     border: 2px solid black;
 
 }
